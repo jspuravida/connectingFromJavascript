@@ -23,18 +23,3 @@ knex.select('id', 'first_name', 'last_name', 'birthdate')
 
   console.log("-" + row.id + " " + row.first_name + " " + row.last_name + " " + row.birthdate);
 });
-
-
-
-
-
-
- // knex.select('id').from('nicknames')
-
-
-
-
-//     console.log(`Found 1 person by the name ${input}: ${result.rows[0].id}: ${result.rows[0].first_name} ${result.rows[0].last_name}, born ${result.rows[0].birthdate}`);
-//     client.end();
-//   };
-// });
